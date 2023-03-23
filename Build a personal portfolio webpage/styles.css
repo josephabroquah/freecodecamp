@@ -1,0 +1,12 @@
+@media (max-width: 480px){
+    body{
+        background: coral;
+    }
+}
+
+#navbar{
+    position: fixed;
+}
+#welcome-section{
+    height: 100vh;
+}
