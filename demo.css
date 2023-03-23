@@ -1,0 +1,29 @@
+#one{
+    background-color: red;
+}
+#two{
+    background-color: yellow;
+}
+
+#one, #two, #three, #four, #five{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#three{
+    background-color: green;
+}
+#four{
+    background-color: brown;
+}
+#five{
+    background-color: blue;
+}
+
+#layout{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 20vh 20vh;
+    justify-content: center;
+}
+
